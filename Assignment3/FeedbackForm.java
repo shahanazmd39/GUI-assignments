@@ -12,7 +12,7 @@ public class FeedbackForm
 	Button b1,b2;
 	
 	public FeedbackForm() {
-		//creating objects
+	
 		f1 = new Frame("Feedback Form");
 		tf1 = new TextField(30);
 		tf2 = new TextField(30);
@@ -27,17 +27,17 @@ public class FeedbackForm
 		b1 = new Button("Reset ");
 		b2 = new Button("Submit");
 		
-		//Set the size for the Frame
+		
 		f1.setSize(500,400);
 		
-		//Set the Layout for the Frame.
+		
 		GridLayout grid = new GridLayout(5,2);
 		f1.setLayout(grid);
 		
-		//Set visibility
+		/
 		f1.setVisible(true);
 		
-		//Adding Components to the frame.
+	
 		f1.add(l1);
 		f1.add(tf1);
 		f1.add(l2);
