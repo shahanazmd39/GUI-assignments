@@ -16,7 +16,7 @@ public class LoginForm
 	  public LoginForm() 
 	  
 	  {
-		//creating objects
+		
 		f1 = new Frame("Login Form");
 		tf1 = new TextField(30);
 		tf2 = new TextField(30);
@@ -27,17 +27,17 @@ public class LoginForm
 		b1 = new Button("Reset ");
 		b2 = new Button("Login");
 		
-		//Set the size for the Frame
+		
 		f1.setSize(300,200);
 		
-		//Set the Layout for the Frame.
+		
 		GridLayout grid = new GridLayout(3,2);
 		f1.setLayout(grid);
 		
-		//Set visibility
+		
 		f1.setVisible(true);
 		
-		//Adding Components to the frame.
+		
 		f1.add(l1);
 		f1.add(tf1);
 		f1.add(l2);
