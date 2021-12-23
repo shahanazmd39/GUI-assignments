@@ -13,7 +13,6 @@ public class RegistrationForm1
 	
 	public RegistrationForm1() 
 	{
-		//creating objects
 		f1 = new Frame("Student Registration");
 		tf1 = new TextField(30);
 		tf2 = new TextField(30);
@@ -34,17 +33,17 @@ public class RegistrationForm1
 		b1 = new Button("Reset ");
 		b2 = new Button("Register");
 		
-		//Set the size for the Frame
+		
 		f1.setSize(500,400);
 		
-		//Set the Layout for the Frame.
+		
 		GridLayout grid = new GridLayout(9,2);
 		f1.setLayout(grid);
 		
-		//Set visibility
+		
 		f1.setVisible(true);
 		
-		//Adding Components to the frame.
+		
 		f1.add(l1);
 		f1.add(tf1);
 		f1.add(l2);
